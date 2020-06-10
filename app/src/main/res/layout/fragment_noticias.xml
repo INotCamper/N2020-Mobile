@@ -4,18 +4,54 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorAccent"
     tools:context=".Fragment.NoticiasFragment">
 
-    <RelativeLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <ImageView
-            android:id="@+id/imageView2"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/ic_baseline_fiber_new_24" />
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
 
-    </RelativeLayout>
+            <fragment
+                android:id="@+id/fragment2"
+                android:name="com.tarantulahawk.n2020_mobile.Fragment.CardFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="12dp" />
 
+            <fragment
+                android:id="@+id/fragment3"
+                android:name="com.tarantulahawk.n2020_mobile.Fragment.CardFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="12dp" />
+
+            <fragment
+                android:id="@+id/fragment4"
+                android:name="com.tarantulahawk.n2020_mobile.Fragment.CardFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="12dp" />
+
+            <fragment
+                android:id="@+id/fragment5"
+                android:name="com.tarantulahawk.n2020_mobile.Fragment.CardFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="12dp" />
+
+        </LinearLayout>
+    </ScrollView>
 </FrameLayout>

@@ -17,4 +17,6 @@
     <string name="change_password">Change your Password</string>
     <string name="greetings">Greetings</string>
     <string name="greetings_info">Would you like to make an account and enter this incredible world</string>
+    <string name="app_banner_image_description">Our game banner</string>
+    <string name="modular_image_card_description">Downloaded image, description may differ</string>
 </resources>

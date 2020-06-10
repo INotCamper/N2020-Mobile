@@ -10,6 +10,10 @@
     <string name="greetings">Saudações</string>
     <string name="default_username" translatable="false">username</string>
     <string name="greetings_info">Gostaria de fazer uma conta e entrar nesse incrível mundo</string>
+    <string name="app_banner_image_description">Banner de anúncio do nosso jogo</string>
+
+    <string name="modular_image_card_description">Imagem baixada, descrição não é possível de atualizar</string>
+    <string name="default_new_card_text" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a efficitur dolor. Pellentesque porttitor lectus nec pulvinar blandit. Nulla laoreet.</string>
 
     <string name="profile_name">Nome do Perfil</string>
     <string name="profile_name_hint">Nome</string>
