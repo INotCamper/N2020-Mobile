@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bottom_nav_news">News</string>
+    <string name="bottom_nav_account">Account</string>
+    <string name="bottom_nav_config">Config</string>
+    <string name="bottom_nav_home">Home</string>
+    <string name="profile_name">Profile Name</string>
+    <string name="profile_name_hint">Name</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="email">Email</string>
+    <string name="email_hint">example@gmail.com</string>
+    <string name="address">Address</string>
+    <string name="address_hint">XX Y st.</string>
+    <string name="receive_notifications_switch">Receive Notifications</string>
+    <string name="remember_me_switch">Remember me</string>
+    <string name="volume">Volume</string>
+    <string name="change_password">Change your Password</string>
+    <string name="greetings">Greetings</string>
+    <string name="greetings_info">Would you like to make an account and enter this incredible world</string>
+</resources>

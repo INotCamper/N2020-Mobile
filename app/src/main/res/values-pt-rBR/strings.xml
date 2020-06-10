@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bottom_nav_home">Home</string>
+    <string name="bottom_nav_news">Noticias</string>
+    <string name="bottom_nav_account">Perfil</string>
+    <string name="bottom_nav_config">Config</string>
+    <string name="email_hint">exemplo@gmail.com</string>
+    <string name="address">Endereço</string>
+    <string name="address_hint">Rua X - YY</string>
+    <string name="profile_name">Nome do Perfil</string>
+    <string name="profile_name_hint">Nome</string>
+    <string name="date_of_birth">Dia de Nascimento</string>
+    <string name="email">Email</string>
+    <string name="receive_notifications_switch">Receber Notificações</string>
+    <string name="remember_me_switch">Lembrar de Mim</string>
+    <string name="volume">Volume</string>
+    <string name="change_password">Mudar sua senha</string>
+    <string name="greetings">Saudações</string>
+    <string name="greetings_info">Gostaria de fazer uma conta e entrar nesse incrível mundo</string>
+</resources>

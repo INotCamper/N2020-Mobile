@@ -1,3 +1,28 @@
 <resources>
-    <string name="app_name">N2020-Mobile</string>
+    <string name="app_name" translatable="false">N2020-Mobile</string>
+
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="bottom_nav_home">Home</string>
+    <string name="bottom_nav_news">Noticias</string>
+    <string name="bottom_nav_account">Perfil</string>
+    <string name="bottom_nav_config">Config</string>
+
+    <string name="greetings">Saudações</string>
+    <string name="default_username" translatable="false">username</string>
+    <string name="greetings_info">Gostaria de fazer uma conta e entrar nesse incrível mundo</string>
+
+    <string name="profile_name">Nome do Perfil</string>
+    <string name="profile_name_hint">Nome</string>
+    <string name="date_of_birth">Data de Nascimento</string>
+    <string name="date_of_birth_hint" translatable="false">DD/MM/AAAA</string>
+    <string name="email">Email</string>
+    <string name="email_hint">exemplo@gmail.com</string>
+    <string name="address">Endereço</string>
+    <string name="address_hint">Rua X - YY. etc.</string>
+
+    <string name="receive_notifications_switch">Receber Notificações</string>
+    <string name="remember_me_switch">Lembrar de Mim</string>
+    <string name="volume">Volume</string>
+    <string name="change_password">Mudar sua senha</string>
+    <string name="password_hint" translatable="false">******</string>
 </resources>
