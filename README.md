@@ -1,6 +1,6 @@
 # N2020-Mobile
 
-## Participantes
+## Participantes :busts_in_silhouette:
 - André Baveda :man:
 - Diego Nascimento :horse:
 - Helena Vaz :penguin:
