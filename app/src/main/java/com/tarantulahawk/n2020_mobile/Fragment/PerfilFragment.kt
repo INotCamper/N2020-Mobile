@@ -27,11 +27,22 @@ class PerfilFragment : Fragment() {
         super.onResume()
 
         loadSavedData()
-
+        /*
         etName.setOnFocusChangeListener { v, hasFocus -> saveThisData("Profile", "name", etName.text.toString())}
         etDate.setOnFocusChangeListener { v, hasFocus -> saveThisData("Profile", "date", etDate.text.toString())}
         etEmail.setOnFocusChangeListener { v, hasFocus -> saveThisData("Profile", "email", etEmail.text.toString())}
         etAddress.setOnFocusChangeListener { v, hasFocus -> saveThisData("Profile", "address", etAddress.text.toString())}
+        */
+        if (etName.text.toString() == ""){
+            btSave.text = getString(R.string.create_profile)
+        }
+        btSave.setOnClickListener {
+            saveThisData("Profile", "name", etName.text.toString())
+            saveThisData("Profile", "date", etDate.text.toString())
+            saveThisData("Profile", "email", etEmail.text.toString())
+            saveThisData("Profile", "address", etAddress.text.toString())
+            saveThisData("Config", "pass", etPass.text.toString())
+        }
     }
 
     private fun loadSavedData(){
@@ -39,6 +50,7 @@ class PerfilFragment : Fragment() {
         if(getThisData("Profile", "date") != "") etDate.setText(getThisData("Profile", "date")) else etDate.setHint(R.string.date_of_birth_hint)
         if(getThisData("Profile", "email") != "") etEmail.setText(getThisData("Profile", "email")) else etEmail.setHint(R.string.email_hint)
         if(getThisData("Profile", "address") != "") etAddress.setText(getThisData("Profile", "address")) else etAddress.setHint(R.string.address_hint)
+        if(getThisData("Config", "pass") != "") etPass.setText(getThisData("Config", "pass")) else etPass.setHint(R.string.password_hint)
     }
 
     private fun saveThisData(archName:String, key:String, dado:String){

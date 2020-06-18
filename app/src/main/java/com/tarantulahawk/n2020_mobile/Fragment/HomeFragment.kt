@@ -1,6 +1,7 @@
 package com.tarantulahawk.n2020_mobile.Fragment
 
 import android.content.ComponentName
+import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
@@ -8,6 +9,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.transition.Visibility
 import com.tarantulahawk.n2020_mobile.R
 import kotlinx.android.synthetic.main.fragment_home.*
 
@@ -29,12 +31,26 @@ class HomeFragment : Fragment() {
 
     override fun onResume() {
         super.onResume()
+
+        if (getThisData("Profile", "name").isNullOrBlank()){
+            tvUsername.visibility = View.INVISIBLE
+            tvGreetingInfo.visibility = View.VISIBLE
+        }
+        else{
+            tvUsername.visibility = View.VISIBLE
+            tvGreetingInfo.visibility = View.INVISIBLE
+            tvUsername.text = getThisData("Profile", "name")
+        }
+
         ivGame.setOnClickListener {
             startApplication(enderecoApp)
         }
     }
 
-
+    private fun getThisData(archName:String, key:String): String? {
+        val sharedPref = this.activity?.getSharedPreferences(archName, Context.MODE_PRIVATE)
+        return sharedPref?.getString(key, "")
+    }
 
     fun startApplication(packageName:String) {
         try

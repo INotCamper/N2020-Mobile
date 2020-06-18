@@ -15,6 +15,11 @@
     <string name="modular_image_card_description">Imagem baixada, descrição não é possível de atualizar</string>
     <string name="default_new_card_text" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a efficitur dolor. Pellentesque porttitor lectus nec pulvinar blandit. Nulla laoreet.</string>
 
+    <string name="news_gel">Gelboy e Sabãogirl vieram para combater o Corona virus e ensinar você a fazer o mesmo! Hoje, pra salvar o mundo você não precisa sair da sua casa. Deixe com o Gelboy e a Sabãogirl!</string>
+    <string name="news_sab">O time está completíssimo! Sabãogirl hoje se junta a luta contra o Coronavirus. O jogo sai ainda essa semana, completamente gratuito para todos!</string>
+    <string name="news_logo">Todo mundo em casa? Todo mundo lavando as mãos? Amanhã é dia de #devlog e vamos mostrar parte do desenvolvimento do jogo, com gameplay exclusivo! #fiqueemcasa , fiquem bem, cuidem-se e cuidem dos seus, sempre lembrando dos heróis, Alcool em Gel e Sabão.</string>
+    <string name="news_complete">Jogo completo, depois de duas semanas de luta, chegamos no fim, foi rápido para uns e devagar para outros, adentre este mundo e acabe com os inimigos</string>
+
     <string name="profile_name">Nome do Perfil</string>
     <string name="profile_name_hint">Nome</string>
     <string name="date_of_birth">Data de Nascimento</string>
@@ -23,10 +28,12 @@
     <string name="email_hint">exemplo@gmail.com</string>
     <string name="address">Endereço</string>
     <string name="address_hint">Rua X - YY. etc.</string>
+    <string name="change_password">Mudar sua senha</string>
+    <string name="password_hint" translatable="false">******</string>
+    <string name="create_profile">Criar Perfil</string>
+    <string name="save_profile">Salvar Alterações</string>
 
     <string name="receive_notifications_switch">Receber Notificações</string>
     <string name="remember_me_switch">Lembrar de Mim</string>
     <string name="volume">Volume</string>
-    <string name="change_password">Mudar sua senha</string>
-    <string name="password_hint" translatable="false">******</string>
 </resources>

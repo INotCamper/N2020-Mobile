@@ -19,4 +19,10 @@
     <string name="greetings_info">Would you like to make an account and enter this incredible world</string>
     <string name="app_banner_image_description">Our game banner</string>
     <string name="modular_image_card_description">Downloaded image, description may differ</string>
+    <string name="news_gel">Gelboy and Sabão Girl came to fight the Coronavirus and teach you to do the same! Today, to save the world you don\'t have to leave your home. Leave it to Gelboy and Sabãogirl!</string>
+    <string name="news_sab">The team is complete! Soap Girl today joins the fight against Coronavirus. The game comes out this week, completely free for everyone!</string>
+    <string name="news_logo">Everyone at home? Everyone washing their hands? Tomorrow is #devlog day and we will show part of the game\'s development, with exclusive gameplay! #fiqueemcasa, stay well, take care and take care of yours, always remembering the heroes, Alcohol in Gel and Soap.</string>
+    <string name="news_complete">Full game, after two weeks of fighting, we reached the end, it was fast for some and slow for others, enter this world and finish with the enemies</string>
+    <string name="create_profile">Create Profile</string>
+    <string name="save_profile">Save editions</string>
 </resources>

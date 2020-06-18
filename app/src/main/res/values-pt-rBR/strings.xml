@@ -19,4 +19,10 @@
     <string name="greetings_info">Gostaria de fazer uma conta e entrar nesse incrível mundo</string>
     <string name="app_banner_image_description">Banner do nosso jogo</string>
     <string name="modular_image_card_description">Imagem baixada, descrição pode ser diferente</string>
+    <string name="news_gel">Gelboy e Sabãogirl vieram para combater o Corona vírus e ensinar você a fazer o mesmo! Hoje, pra salvar o mundo você não precisa sair da sua casa. Deixe com o Gelboy e a Sabãogirl!</string>
+    <string name="news_sab">O time está completíssimo! Sabãogirl hoje se junta a luta contra o Coronavirus. O jogo sai ainda essa semana, completamente gratuito para todos!</string>
+    <string name="news_logo">Todo mundo em casa? Todo mundo lavando as mãos? Amanhã é dia de #devlog e vamos mostrar parte do desenvolvimento do jogo, com gameplay exclusivo! #fiqueemcasa , fiquem bem, cuidem-se e cuidem dos seus, sempre lembrando dos heróis, Alcool em Gel e Sabão.</string>
+    <string name="news_complete">Jogo completo, depois de duas semanas de luta, chegamos no fim, foi rápido para uns e devagar para outros, adentre este mundo e acabe com os inimigos</string>
+    <string name="create_profile">Criar Perfil</string>
+    <string name="save_profile">Salvar Alterações</string>
 </resources>

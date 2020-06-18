@@ -46,14 +46,14 @@ class ConfigFragment : Fragment() {
                 saveThisData("Config", "vol", sbVolume.progress.toString())
             }
         })
-        etPassword.setOnFocusChangeListener { v, hasFocus -> saveThisData("Config", "pass", etPassword.text.toString()) }
+        //etPassword.setOnFocusChangeListener { v, hasFocus -> saveThisData("Config", "pass", etPassword.text.toString()) }
     }
 
     private fun loadSavedData(){
         swNot.isChecked = (getThisData("Config", "notf"))!!.toBoolean()
         swRebLog.isChecked = (getThisData("Config", "rebme"))!!.toBoolean()
         sbVolume.progress = (getThisData("Config", "vol"))!!.toInt()
-        if(getThisData("Config", "pass") != "") etPassword.setText(getThisData("Config", "pass")) else etPassword.setHint(R.string.password_hint)
+        //if(getThisData("Config", "pass") != "") etPassword.setText(getThisData("Config", "pass")) else etPassword.setHint(R.string.password_hint)
     }
 
     private fun saveThisData(archName:String, key:String, dado:String){

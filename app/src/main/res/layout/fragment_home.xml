@@ -41,26 +41,25 @@
             android:layout_marginStart="20dp"
             android:layout_marginTop="12dp"
             android:layout_marginEnd="20dp"
-            android:enabled="false"
+            android:enabled="true"
             android:text="@string/greetings_info"
             android:textAlignment="center"
             android:textSize="28sp"
+            android:visibility="visible"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvGretings"
-            tools:visibility="invisible" />
+            app:layout_constraintTop_toBottomOf="@+id/tvGretings" />
 
         <ImageView
             android:id="@+id/ivGame"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:background="#3DDC84"
+            android:layout_height="150dp"
             android:contentDescription="@string/app_banner_image_description"
-            android:src="@drawable/ic_launcher_background"
+            android:scaleType="centerCrop"
+            android:src="@drawable/banner_logo"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:srcCompat="@drawable/ic_launcher_background" />
+            app:layout_constraintStart_toStartOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
